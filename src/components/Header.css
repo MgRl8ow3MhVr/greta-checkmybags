@@ -1,0 +1,22 @@
+.headerContainer {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.sideBoxes {
+  display: flex;
+  gap: 5px;
+  background-color: yellow;
+  padding: 5px;
+}
+.sideBoxes span {
+  font-family: "Indie Flower", cursive;
+  background-color: green;
+  font-size: 20px;
+}
+.basket {
+  width: 30px;
+  height: 30px;
+}
