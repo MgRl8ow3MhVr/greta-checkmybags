@@ -1,3 +1,6 @@
 .CarousselContainer {
   background-color: hotpink;
+  display: flex;
+  column-gap: 10px;
+  overflow: scroll;
 }

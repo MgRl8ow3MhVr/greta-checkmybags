@@ -1,0 +1,25 @@
+.CartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  flex: 0 0 auto;
+}
+
+.imageCartContainer {
+  /* flex: 0 0 auto; */
+  width: 100%;
+  height: 50vw;
+}
+
+.imageCartContainer img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.classic {
+}
+
+.explore {
+}

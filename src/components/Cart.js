@@ -1,17 +1,14 @@
 import "./Cart.css";
 import Arc from "../assets/arc-de-triomphe626.jpg";
 
-const Cart = () => {
+const Cart = (props) => {
   return (
     <div className="CartContainer">
       <div className="imageCartContainer">
-        <img
-          className="imageCart"
-          src="https://checkmybags.netlify.app/static/media/bandouliere-back-to-school.0750d39c.jpg"
-        />
-        <span>CLASSIC</span>
-        <span>EXPLORE</span>
+        <img src="https://checkmybags.netlify.app/static/media/bandouliere-back-to-school.0750d39c.jpg" />
       </div>
+      <div className="classic">CLASSIC</div>
+      <div className="explore">EXPLORE</div>
     </div>
   );
 };

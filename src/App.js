@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div className="mainPage">
       <Header />
-      HELLO
       <Hero />
       <Carroussel />
     </div>
