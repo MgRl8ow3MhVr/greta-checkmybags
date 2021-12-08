@@ -5,8 +5,6 @@ const Caroussel = () => {
   return (
     <div className="CarousselContainer">
       <Cart />
-      <Cart />
-      <Cart />
     </div>
   );
 };
