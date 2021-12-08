@@ -1,7 +1,5 @@
 .Hero {
-  background-color: green;
   height: 400px;
-  background-image: url("https://thumbs.dreamstime.com/b/bags-shop-illustration-woman-buys-handbags-35038268.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;

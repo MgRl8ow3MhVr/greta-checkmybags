@@ -1,18 +1,25 @@
 import "./Carroussel.css";
 import Cart from "./Cart";
+import bagsList from "../assets/dataBase";
 
 const Caroussel = () => {
+  console.log("bagsList", bagsList);
+
   return (
     <div className="CarousselContainer">
-      <Cart
-        urlImage="https://checkmybags.netlify.app/static/media/bandouliere-back-to-school.0750d39c.jpg"
-        bagName="sac1"
+      {bagsList.map((bagItem) => {
+        return <Cart urlImage={bagItem.url} bagName={bagItem.name} />;
+      })}
+
+      {/* ANCIENNE METHODE */}
+      {/* <Cart
+        urlImage="https://checkmybags.netlify.app/static/media/cabas-bi-matiere-poche-devant-avec-foulard.2187cb46.jpg"
+        bagName="bag1"
       />
       <Cart
-        urlImage="https://checkmybags.netlify.app/static/media/bandouliere-poignee-metal-et-bi-matiere.8bdd8c3c.jpg"
-        bagName="sac2"
-      />
-      <Cart urlImage="https://checkmybags.netlify.app/static/media/cabas-bi-matiere-poche-devant-avec-foulard.2187cb46.jpg" />
+        urlImage="https://checkmybags.netlify.app/static/media/cabas-bi-matiere-poche-devant-avec-foulard.2187cb46.jpg"
+        bagName="bag1"
+      /> */}
     </div>
   );
 };

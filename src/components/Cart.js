@@ -1,5 +1,4 @@
 import "./Cart.css";
-import Arc from "../assets/arc-de-triomphe626.jpg";
 
 const Cart = (props) => {
   console.log(props);
